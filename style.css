@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+
+@font-face {
+    font-family: 'IDroid';
+    src: url('idroid.otf') format('opentype'), url('love story ttf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    margin: 0px;
+}
+
+header > h1 {
+    text-shadow: 5px 1px rgba(0, 0, 0, 0.32);
+    font-family: 'Agdasima', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(96, 203, 142), rgb(22, 162, 94), rgb(15, 142, 121));
+    margin: -8px -8px 0px -8px;
+    padding: 2px 30px 0px 30px;
+}
+
+nav {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+div:hover {
+    color: black;
+}
+
+body {
+    background-color: rgba(102, 228, 136, 0.744);
+}
+
+section {
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.356);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px 20px 20px 30px;
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+section > h1 {
+    color: rgba(5, 85, 5, 0.822);
+    font-family: 'IDroid';
+    font-size: 30px;
+}
+
+
+section > h2 {
+    background-image: linear-gradient(to right, rgba(6, 158, 6, 0.61), white);
+    color: rgba(5, 85, 5, 0.822);
+    font-family: 'IDroid';
+    padding-left: 10px;
+}
+
+section > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: bolder;
+    text-indent: 40px;
+}
+
+aside {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+h3 {
+    background-color: green;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px
+}
+
+
+article {
+    background-color: rgb(103, 170, 103);
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -19px;
+    padding: 10px;
+}
+
+
+footer {
+    margin: 0px -8px -7px -9px;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+#bugdroid {
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+#firsta {
+    margin-left: -20px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+header a:hover {
+    background-color: rgb(20, 104, 104);
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+ul {
+    columns: 2;
+}
+
+div.video {
+    background-color: green;
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -30px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
